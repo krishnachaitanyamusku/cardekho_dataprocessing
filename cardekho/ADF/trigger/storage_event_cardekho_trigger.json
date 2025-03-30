@@ -1,8 +1,8 @@
 {
-	"name": "trigger1",
+	"name": "storage_event_cardekho_trigger",
 	"properties": {
 		"annotations": [],
-		"runtimeState": "Stopped",
+		"runtimeState": "Started",
 		"pipelines": [
 			{
 				"pipelineReference": {
