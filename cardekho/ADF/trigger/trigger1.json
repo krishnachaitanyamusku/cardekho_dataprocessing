@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "cardekho_end_to_end_pipeline",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/cardekho-landing/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/15322382-ff7e-4cdf-9916-c964461fc05c/resourceGroups/cardekho-full/providers/Microsoft.Storage/storageAccounts/cardekhoblob",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}

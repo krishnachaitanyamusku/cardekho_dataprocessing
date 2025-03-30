@@ -1,0 +1,9 @@
+{
+	"name": "cardekhodf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "164c020f-e2a5-443b-b112-1b329171cd67",
+		"tenantId": "b1c20dbf-7d7d-4f4c-afce-51a4bd5900c8"
+	}
+}

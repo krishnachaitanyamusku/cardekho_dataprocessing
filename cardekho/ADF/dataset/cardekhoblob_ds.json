@@ -1,0 +1,24 @@
+{
+	"name": "cardekhoblob_ds",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobS_source_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "cars_details_merges.csv",
+				"container": "cardekho-landing"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
